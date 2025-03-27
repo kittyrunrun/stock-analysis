@@ -1,1 +1,6 @@
-aot_analysis.txt file
+AOT Stock Trend Analysis
+=========================
+Total Days: 100
+Up Days: 50
+Down Days: 49
+Stable Days: 1
