@@ -29,7 +29,7 @@ def analyze_market():
     # average closing price
     avg_price = data['Price'].mean()
 
-    # Save analysis results to a file
+    # Save analysis results
     with open("market_analysis.txt", "w") as file:
         file.write("Market Analysis Report\n")
         file.write("======================\n")
