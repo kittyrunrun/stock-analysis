@@ -26,7 +26,7 @@ def analyze_market():
     end_price = daily_avg['Price'].iloc[-1]
     trend = "upward" if end_price > start_price else "downward" if end_price < start_price else "stable"
 
-    # Calculate overall average closing price
+    # average closing price
     avg_price = data['Price'].mean()
 
     # Save analysis results to a file
